@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('./Components/Pictures/test2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    overflow-x: hidden;
+  }
+  
+  .sidenav a {
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  .wrapper {
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .text-box {
+    background-color: #8799eb;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto 20px;
+    max-width: 800px;
+  }
+  
+  .huge-title {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .textbox {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .segment {
+    margin-bottom: 5px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-form {
+    text-align: center;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .textarea-field {
+    height: 150px;
+  }
+  
+  .submit-button {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
